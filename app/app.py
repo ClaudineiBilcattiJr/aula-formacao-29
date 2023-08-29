@@ -7,7 +7,7 @@ metrics = PrometheusMetrics(app)
 @app.route("/")
 def hello_world():
 
-    return "Primeiro deploy CI CD Aula Formacao!!"
+    return "Segundo deploy CI CD Aula Formacao!!"
 
 @app.route("/cadastro")
 def cadastro():
